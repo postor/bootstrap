@@ -1,0 +1,44 @@
+{
+  "name": "nextjs-boilerplate-bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "gulp",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "cross-env NODE_ENV=production node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "bootstrap": "^3.3.7",
+    "cookie-parser": "^1.4.3",
+    "csurf": "^1.9.0",
+    "express": "^4.15.2",
+    "js-cookie": "^2.1.4",
+    "next": "^2.1.1",
+    "next-fetch": "^1.0.1",
+    "next-i18n-helper": "^1.0.17",
+    "next-navigation": "^1.0.1",
+    "next-routes": "^1.0.27",
+    "next.js-redux-helper": "^1.0.4",
+    "react": "^15.4.2",
+    "react-addons-update": "^15.6.0",
+    "react-bootstrap": "^0.31.1",
+    "react-dom": "^15.4.2",
+    "react-i18next": "^4.1.2",
+    "react-redux": "^5.0.5",
+    "spdy": "^3.4.7"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "cross-env": "^5.0.1",
+    "eslint-plugin-react": "^7.1.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^4.0.0"
+  }
+}
