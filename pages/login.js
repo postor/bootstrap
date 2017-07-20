@@ -2,7 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 
 import Layout from '../components/Layout.js'
-import { login } from '../tools/store/user'
+import { login, getUser } from '../tools/store/user'
 
 class Login extends React.Component {
   render() {
@@ -34,6 +34,11 @@ class Login extends React.Component {
       .catch((e) => {
         alert('登录失败:' + e)
       })
+  }
+
+  componentDidMount() {
+    const {dispatch} = this.props
+    dispatch(getUser())
   }
 }
 
