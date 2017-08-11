@@ -36,7 +36,7 @@ class Banner extends Component {
         minHeight: 200,
       }
     }
-    return (<Carousel style={{ width: "100%", margin: '0 auto', color: '#fff' }} interval={4000} controls={false} onSelect={this.onBannerChange.bind(this)}>
+    return (<Carousel style={{ width: "100%", margin: '0 auto', color: '#fff' }} interval={3000} controls={false} onSelect={this.onBannerChange.bind(this)}>
       <Carousel.Item>
         <img alt="900x500" src={bannerImgSrc} style={getBannerStyle('blue')} />
         <div style={{
